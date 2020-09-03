@@ -1,6 +1,5 @@
 from django.db import connection
 
-
 def getNumerosPrimos(query_):
     cursor = connection.cursor()
     cursor.execute(query_)
